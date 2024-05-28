@@ -1,0 +1,141 @@
+{
+    "albums": [
+        {
+            "albumName": "Who Really Cares",
+            "id#": 0,
+            "artist": "TV Girl",
+            "albumCover": "https://upload.wikimedia.org/wikipedia/en/thumb/5/57/TV_Girl_-_Who_Really_Cares.png/220px-TV_Girl_-_Who_Really_Cares.png",
+            "stats":
+                {
+                    "genre":"Indie",
+                    "length":"36:55",
+                    "releaseDate":"February 26, 2016",
+                    "label":"TV Girl",
+                    "trackList":
+                    {
+                        "song1":"Taking What's Not Yours",
+                        "song2":"Song About Me",
+                        "song3":"Cigarettes out the Window",
+                        "song4":"Till You Tell Me to Leave",
+                        "song5":"Not Allowed",
+                        "song6":"(Do The) Act Like You Never Met Me",
+                        "song7":"Safeword",
+                        "song8":"For You",
+                        "song9":"Loving Machine",
+                        "song10":"Heaven is a Bedroom"
+                    }
+                    
+                }
+                
+            
+         
+        
+        },
+
+        {
+            "albumName": "Happier Than Ever",
+            "id#": 1,
+            "artist": "Billie Eilish",
+            "albumCover": "https://m.media-amazon.com/images/I/71laVfWEkCS._UF1000,1000_QL80_.jpg",
+            "stats":
+                {
+                    "genre":"Electropop, Pop",
+                    "length":"56:07",
+                    "releaseDate":"June 30, 2021",
+                    "label":"Darkroom, Interscope Records",
+                    "trackList":
+                    {
+                        "song1":"Getting Older",
+                        "song2":"I Didn't Change My Number",
+                        "song3":"Billie Bossa Nova"	,
+                        "song4":"My Future",
+                        "song5":"Oxytocin",
+                        "song6":"Goldwing",
+                        "song7":"Lost Cause",
+                        "song8":"Halley's Comet",
+                        "song9":"Not My Responsibility",
+                        "song10":"Overheated",
+                        "song11":"Everybody Dies",
+                        "song12":"Your Power",
+                        "song13":"NDA",
+                        "song14":"Therefore I Am",
+                        "song15":"Happier Than Ever",
+                        "song16":"Male Fantasy"
+                    }
+                }
+            
+        },
+
+        {
+            "albumName": "This Old Dog",
+            "id#": 2,
+            "artist": "Mac DeMarco",
+            "albumCover": "https://media.pitchfork.com/photos/5929c3c1eb335119a49ed7b4/1:1/w_450%2Cc_limit/aa7d1929.jpg",
+            "stats":
+                {
+                    "genre":"Indie rock, lo-fi",
+                    "length":"42:24",
+                    "releaseDate":"May 5, 2017",
+                    "label":"Captured Tracks, Royal Mountain Records",
+                    "trackList":
+                    {
+                        "song1":"My Old Man",
+                        "song2":"This Old Dog",
+                        "song3":"Baby You're Out",
+                        "song4":"For the First Time",
+                        "song5":"One Another",
+                        "song6":"Still Beating",
+                        "song7":"Sister",
+                        "song8":"Dreams from Yesterday",
+                        "song9":"A Wolf Who Wears Sheeps Clothes",
+                        "song10":"One More Love Song",
+                        "song11":"On the Level",
+                        "song12":"Moonlight on the River",
+                        "song13":"Watching Him Fade Away"
+                    }
+                }
+            
+        },
+
+        {
+            "albumName":"Abbey Road" ,
+            "id#": 3,
+            "artist": "the Beatles",
+            "albumCover": "https://www.thebeatles.com/sites/default/files/2021-06/Abbey%20Road.jpg",
+            "stats":
+                {
+                    "genre":"Rock",
+                    "length":"47:03",
+                    "releaseDate":"September 26, 1969",
+                    "label":"Apple",
+                    "trackList":
+                    {
+                        "song1":"Come Together",
+                        "song2": "Something",
+                        "song3":"Maxwell's Silver Hammer",
+                        "song4":"Oh! Darling",
+                        "song5":"Octopus's Garden",
+                        "song6":"I Want You (She's So Heavy)",
+                        "song7":"Here Comes the Sun",
+                        "song8":"Because",
+                        "song9":"You Never Give Me Your Money",
+                        "song10":"Sun King",
+                        "song11":"Mean Mr. Mustard",
+                        "song12":"Polythene Pam",
+                        "song13":"She Came In Through the Bathroom Window",
+                        "song14":"Golden Slumbers",
+                        "song15":"Carry That Weight",
+                        "song16":"The End",     
+                        "song17":"Her Majesty"  
+                 }
+                }
+        
+        }
+       
+ 
+        
+    ]
+
+    
+}
+  
