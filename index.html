@@ -1,13 +1,68 @@
 <!DOCTYPE html>
 <html lang="en-US">
     <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>The name of your website</title> 
+        <title>Music</title> 
         <link rel="stylesheet" href="styles.css">
         <script type="text/javascript" src="script.js"></script>
     </head>
     <body>
-        Your HTML goes here
+        <main>
+            
+            <section class="container">
+              <div role="search" id="search-section">
+                <label for="search-input" id="searchAlbum">Search for album:</label>
+                <div id="inputAndButton">
+                  <input type="text" name="album" id="search-input" required="">
+                  <button id="search-button">Search</button>
+                </div>
+              </div>
+              <div class="output">
+                <div class="top-container">
+
+                  <div id="sprite-container" class="sprite-container">
+                    <img id="sprite" src="" alt="The cover">
+                  </div>
+                  
+                  <div class="name-and-id">
+                    <span id="album"></span>
+                  </div>
+
+                  <div class="artist">
+                    <span id="artist"></span>
+                  </div>
+
+                  
+                  <div class="stats">
+                    <span id="genre"></span>
+                    <p id="seeGenre">Genre</p>
+                  </div>
+
+                  <!-- <div class="stats">
+                    <span id="length"></span>
+                    <p id="seeLength">Length</p>
+                  </div>
+
+                  <div class="stats">
+                    <span id="releaseDate">words</span>
+                    <p id="seeReleaseDate">Release Date</p>
+                  </div>
+
+                  <div class="stats">
+                    <span id="label"></span>
+                    <p id="seeLabel">Label</p>
+                  </div> -->
+
+
+                </div>
+                <div class="bottom-container">
+                    <div class="row">
+                        <div class="song" id="tracklist">Tracklist:</div>
+                    </div>
+                    <div id="songs">
+                    </div>
+                </div>
+              </div>
+            </section>
+          </main>   
     </body>
 </html>

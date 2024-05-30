@@ -1,5 +1,10 @@
-/** CSS Reset */
-/* You can keep or remove this, if you'd like */
+:root {
+  
+  --container-background: rgb(245, 246, 247);
+}
+
+/* CSS reset */
+
 *,
 *::before,
 *::after {
@@ -10,12 +15,197 @@
   margin: 0;
 }
 
-/** You can define your own CSS variables here */
-:root {
-  /** Example: */
-  --main-background: rgb(61, 125, 202);
+body {
+  line-height: 1.5;
 }
 
-/** Project styling */
+img {
+  display: block;
+}
 
-/** Your styles go here */
+/* Project styling */
+
+body {
+  height: 100vh;
+  font-family: sans-serif;
+  background-color: black;
+  color: #0a0a23;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+h1 {
+  color: #f5f6f7;
+  font-size: 1.7em;
+  text-align: center;
+}
+
+
+/* Main container */
+.container {
+  width: 750px;
+  height: 700px;
+  background-color: var(--container-background);
+  bottom: 1px;
+  box-shadow: 10px 10px #536070;
+  margin: 20px;
+  border-radius: 20px;
+  margin-top: 100px;
+}
+
+
+/* Search section */
+
+/* TODO: Add search section styling */
+
+
+
+#search-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 3%;
+  align-items: center;
+  
+}
+
+#inputAndButton{
+  display: flex;
+  flex-direction: row;
+
+}
+
+
+#search-button{
+  background-color:#536070;
+  border-radius: 22px;
+  height: 40px;
+  width: 75px;
+  border: none;
+  margin-top: auto;  
+}
+
+#search-button:hover{
+  background-color: #282828;
+  color: white;
+}
+
+#search-input{
+  height: 40px;
+  border-radius: 10px;
+  margin-top: 3%;
+  margin-right: 10px;
+
+  
+}
+/** Search Section end **/
+.output{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+
+/** Output section start **/
+.top-container{
+  color: rgb(57, 50, 50);
+  display: flex;
+  flex-direction: column-reverse;
+  height: 215px;
+  width: 290px;
+  /* background-color: #282828; */
+  margin: 5%;
+  border-radius: 15px;
+  align-items: right;
+  /* transform: translate(500px); */
+  
+}
+.name-and-id{
+  /* align-items: left; */
+  font: Themadi;
+  margin: 5px;
+  margin-left: 10px;
+  text-align: center;
+  font-size: large;
+  font-weight: 800;
+  transform: translate(0, 220px);
+  
+}
+.artist{
+  font-size: smaller;
+  margin-left: 10px;
+  text-align: center;
+  transform: translate(0, 270px);
+}
+
+.sprite-container{
+  margin: auto;
+  
+}
+#sprite{
+  width: 175px;
+  height: 175px;
+  border: 3px solid #000000;
+}
+
+#seeGenre{
+  transform: translate(0, 330px);
+  font-weight: bold; 
+  margin-right: 10px;
+}
+
+
+
+#genre {
+  transform: translate(0, 350px);
+}
+
+.stats{
+  align-items: right;
+  font-weight: 550; 
+  min-height: 23px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 5px;
+  font-size: x-small;
+  /* margin-right: 10px; */
+  text-align: right;
+}
+
+
+.bottom-container{
+  margin-bottom: 75px;
+}
+.row{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: small;
+  margin: 8px;
+  text-align: center;
+  align-items: left;
+  
+}
+
+.song {
+ margin-left: 20px;
+}
+
+#tracklist{
+  margin-left: 40px;
+
+  font-size: x-large;
+  font-weight: bold;
+  margin-top: 40px;
+
+}
